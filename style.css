@@ -97,7 +97,8 @@
   box-shadow: 0 0 10px white;
   padding: 5px;
   display: flex;
-
+  justify-content: center;
+  align-items: center;
 }
 #glow-box-home:hover {
   box-shadow: 0 0 15px rgb(199, 43, 219);
@@ -163,4 +164,11 @@ body {
   background-color: rgb(118, 102, 102);
   color: white;
   text-align: center;
+}
+.homefooter {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(118, 102, 102);
 }
